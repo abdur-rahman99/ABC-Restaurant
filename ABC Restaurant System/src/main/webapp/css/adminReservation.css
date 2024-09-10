@@ -1,0 +1,131 @@
+/* General body styling */
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.25;
+    background-color: #0080FF;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Table Styling */
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    table-layout: fixed;
+}
+
+table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+    color: #f5f808;
+}
+
+table th, 
+table td {
+    padding: .625em;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #333;
+    color: #f5f808; /* Primary color */
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+table tr {
+    background-color: #f8f8f8;
+}
+
+table tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+table td {
+    color: #333;
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        border: 0;
+    }
+    table caption {
+        font-size: 1.3em;
+    }
+    table thead {
+        display: none;
+    }
+    table tr {
+        display: block;
+        margin-bottom: .625em;
+    }
+    table td {
+        display: block;
+        font-size: .8em;
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+    table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        font-weight: bold;
+    }
+}
+
+/* Button Styling */
+.button {
+    background-color: aqua;
+    border: none;
+    color: black;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 90%;
+}
+
+.button:hover {
+    background-color: #555555;
+    color: white;
+}
+
+/* Container and Header Styling */
+.container {
+    margin: 50px auto;
+    width: 90%;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #f5f808; /* Primary color */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Footer Styling */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ccc;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
