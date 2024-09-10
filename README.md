@@ -3,11 +3,11 @@ The ABC Restaurant Management System is a web-based application designed to stre
 This project was built using the Tomcat server for running the web application, a MySQL database for storing data, and HTML and CSS for designing the user interfaces. The project incorporates a simple and clean design with form validations, data handling, and responsive layouts.
 
 
-Customer Panel: Customers can create reservations, view their booking statuses (pending, approved, or rejected), and manage their reservations.
+Customer Panel: Customers can create reservations, view their booking statuses (pending, approved, or rejected), submit query and view gallery.
 
 Staff Panel: Staff can log in and manage reservations, view bookings, and respond to customer queries.
 
-Admin Panel: Administrators can add, edit, and delete staff members, view all reservations, and manage system users.
+Admin Panel: Administrators can add and delete staff members, view all reservations, and manage system users.
 
 
 Backend:
@@ -22,6 +22,7 @@ HTML5: For structuring the web pages.
 CSS3: For designing and styling the application interface, applying responsive layouts, and ensuring a consistent user experience.
 
 Login Credentials:
+![1user login](https://github.com/user-attachments/assets/0411fa84-3bf1-4cdd-8228-0359ba0247e0)
 
 Customer Panel:Email: rahman@gmail.com || Password: 123
 
